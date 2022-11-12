@@ -1,1 +1,28 @@
-
+@import url("../../fonts/proximaNova/stylesheet.css");
+.jobs {
+    &__item {
+        width: 1400px;
+        height: 164px;
+        padding: 24px, 16px, 24px, 16px;
+    }
+    &__img {
+        width: 85px;
+        height: 85px;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%
+    }
+    &__descr {
+        &__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}

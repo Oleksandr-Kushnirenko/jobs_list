@@ -8,7 +8,7 @@ const setContent = (process, Component, data) => {
         case "confirmed":
             return <Component data={data}/>;
         case "error":
-            return  <ErrorMessage/>
+            return <ErrorMessage/>
         default:
             throw new Error("Unexpected process state");
     }
